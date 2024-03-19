@@ -1,0 +1,29 @@
+.banner_cont{
+    
+    background-image: url(../../../assets/imgs/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    @apply flex flex-col gap-10 justify-center items-start pl-20
+}
+
+.banner_btn{
+    @apply p-3 px-5 font-bold hover:scale-110 duration-500 w-fit rounded-md text-white bg-def_orange
+}
+
+@media screen  and (max-width: 1000px) {
+    .banner_cont{
+        min-height: 60vh;
+        @apply pl-0 items-center
+    }
+    .banner_btn{
+        @apply py-2 px-4 font-semibold
+    }
+}
+
+
+
+.banner_title{
+    @apply  text-center sm:text-left text-4.5xl sm:text-5xl lg:text-6xl text-white font-bold
+}

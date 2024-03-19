@@ -1,0 +1,44 @@
+.go-top {
+    min-width: 40px;
+    min-height: 40px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer_elem{
+    @apply flex flex-col max-w-64
+}
+
+.last_elem{
+    @apply text-center flex items-center gap-20
+}
+
+.footer_elem_title{
+    @apply text-xl font-bold
+}
+
+.top-img{
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 529px) {
+    .footer_elem{
+        @apply items-center
+    }
+    .footer_elem_title{
+        @apply text-center
+    }
+    .footer_elem_text{
+        @apply text-center
+    }
+    .last_elem{
+        @apply flex-col-reverse gap-5
+    }
+}

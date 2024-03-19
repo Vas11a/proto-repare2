@@ -1,0 +1,57 @@
+.about_title{
+    color: #16372C; 
+    font-size: 40px;
+    @apply text-center font-semibold pb-20
+}
+
+.about_cont{
+    @apply flex flex-col items-center gap-16 md:gap-20 px-4
+}
+
+.elem_about{
+    @apply flex justify-center items-center gap-10
+}
+
+.img_about{
+    width: 600px;
+    z-index: 1;
+    @apply rounded-md shadow-gray-600
+}
+
+.about_shade{
+    z-index: 0;
+}
+
+.about_elem_title{
+    @apply text-2xl text-def_green font-bold ;
+    z-index: 1;
+}
+
+.about_elem_subtitle{
+    color: #16372C; max-width: 400px; z-index: 1;
+}
+
+.about_elem_btn{
+    background-color: #FF7331; z-index: 1;
+    @apply  cursor-pointer w-fit text-white hover:bg-orange-800 focus:ring-4 focus:ring-orange-400 font-medium rounded-lg px-5 py-2.5 me-2 mb-2
+}
+
+@media screen and (max-width: 830px) {
+    .elem_about{
+        @apply flex-col items-start
+    }
+    .elem_middle{
+        @apply flex-col-reverse
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .img_about{
+        width: 100%;
+    }
+
+    .about_title{
+        font-size: 35px;
+        @apply text-center font-semibold pb-10
+    }
+}

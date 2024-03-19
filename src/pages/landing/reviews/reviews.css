@@ -1,0 +1,37 @@
+.slider_cont{
+    height: 360px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.reviews_title{
+    font-size: 40px;
+    @apply font-semibold text-center text-black pb-20
+}
+
+.rev_cont{
+    @apply pt-20 pb-28 relative
+}
+
+
+@media screen and (max-width: 700px) {
+    .slider_cont{
+        width: 95%;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .slider_cont{
+        width: 95%;
+        height: 370px;
+    }   
+    .reviews_title{
+        font-size: 35px;
+        @apply pb-10
+    }
+    .rev_cont{
+        @apply py-10
+    }
+}

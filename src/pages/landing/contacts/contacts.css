@@ -1,0 +1,63 @@
+.contact_section{
+    background-color: #16372C;
+    @apply py-20 pt-0
+}
+
+.contacts_title{
+    font-size: 40px;
+    @apply font-semibold text-center text-def_green pb-10 pt-5 
+}
+
+.form_wrapper{
+    @apply flex justify-around items-center px-32 gap-4
+}
+.own_cont{
+    @apply flex justify-around px-6 py-12 mx-auto
+}
+
+@media screen and (max-width: 1276px) {
+    .form_wrapper{
+        @apply px-4
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .form_wrapper{
+        @apply flex-col-reverse
+    }
+    .contact_links{
+        @apply flex flex-col justify-center items-center
+    }
+    .sbtl_form{
+        @apply text-center pt-5
+    }
+    .social_title{
+        @apply text-center
+    }
+
+    .social{
+        @apply justify-center
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .own_cont{
+        @apply pt-0
+    }
+    .contact_section{
+        @apply py-10
+    }
+    .contacts_title{
+        font-size: 35px;
+        @apply px-2
+    }
+    .form_wrapper{
+        @apply px-1
+    }
+    .contact_section{
+        @apply pt-2
+    }
+    .contacts_title{
+        @apply font-semibold text-center text-def_green pb-10 pt-14 
+    }    
+}
