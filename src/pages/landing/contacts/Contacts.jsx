@@ -1,8 +1,9 @@
 import React from 'react'
 import './contacts.css'
 import axios from 'axios';
+
 export default function Contacts() {
-    const [form, setForm] = React.useState({ name: '', email: '', message: '', })
+    const [form, setForm] = React.useState({ name: '', email: '', description: '', })
     const [nameError, setNameError] = React.useState(false);
     const [mailError, setMailError] = React.useState(false);
     const [isError, setIsError] = React.useState(false);
@@ -22,9 +23,10 @@ export default function Contacts() {
         }
         setIsLoading(true);
         try {
-            console.log(form);
+            const res = await axios.post('http://31.129.111.60:4000/form', form);
+            setForm({ name: '', email: '', description: '', })
         } catch (error) {
-            console.log('errro');
+            setIsError(true);
         } finally {
             setIsLoading(false);
         }
@@ -188,8 +190,8 @@ export default function Contacts() {
                                     <div className="w-full mt-6">
                                         <label className="block mb-2 text-sm text-white">Message</label>
                                         <textarea
-                                            onChange={(e) => setForm({ ...form, message: e.target.value })}
-                                            value={form.message}
+                                            onChange={(e) => setForm({ ...form, description: e.target.value })}
+                                            value={form.description}
                                             className="block w-full h-32 px-5 py-3 mt-2 text-white placeholder-gray-400 bg-def_green  border border-gray-500 rounded-md md:h-48 focus:border-orange-300 focus:outline-none focus:ring-orange-200 focus:ring-opacity-40"
                                             placeholder="Message"></textarea>
                                     </div>

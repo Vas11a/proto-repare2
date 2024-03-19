@@ -4,6 +4,7 @@ import './reviews.css'
 import userprofile from '../../../assets/imgs/user-profile.jpg'
 import Rating from './Rating';
 import like from '../../../assets/imgs/like2.png'
+import { Link } from 'react-router-dom';
 
 export default function Reviews() {
     return (
@@ -36,8 +37,8 @@ export default function Reviews() {
 
                 </Carousel>
             </div>
-            <div className="text-center pt-10 text-xl"><span className="text-orange-400 font-bold cursor-pointer">Login </span>
-                to add one more</div>
+            <div className="text-center pt-10 text-xl">
+                You can send your review on our <Link to="/contacts" className="text-orange-400 font-bold cursor-pointer">email </Link> !)</div>
 
         </section>
     )

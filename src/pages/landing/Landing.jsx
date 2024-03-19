@@ -6,6 +6,7 @@ import Contacts from './contacts/Contacts'
 import Reviews from './reviews/Reviews'
 import Footer from './footer/Footer'
 import { Routes, Route } from 'react-router-dom'
+import CommingSoon from './CommingSoon'
 
 export default function Landing() {
   
@@ -14,9 +15,10 @@ export default function Landing() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Banner/>}/>
-          <Route path="/about" element={<About/>}/>
+          {/* <Route path="/about" element={<About/>}/> */}
           <Route path="/contacts" element={<Contacts/>}/>
           <Route path="/reviews" element={<Reviews/>}/>
+          <Route path="/tracking" element={<CommingSoon/>}/>
         </Routes>
         <Footer/>
     </>

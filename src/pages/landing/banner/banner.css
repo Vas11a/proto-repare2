@@ -9,7 +9,7 @@
 }
 
 .banner_btn{
-    @apply p-3 px-5 font-bold hover:scale-110 duration-500 w-fit rounded-md text-white bg-def_orange
+    @apply p-4 px-6 font-bold hover:scale-110 duration-500 w-fit rounded-md text-xl text-white bg-def_orange
 }
 
 @media screen  and (max-width: 1000px) {

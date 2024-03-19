@@ -1,12 +1,13 @@
 import React from 'react'
 import './footer.css'
+import Reviews from '../reviews/Reviews';
 
 export default function Footer() {
 
     const scrollToTop = () => {
         window.scrollTo({
           top: 0,
-          behavior: 'smooth' // Для плавной прокрутки
+          behavior: 'smooth'
         });
       };
     return (
@@ -38,8 +39,6 @@ export default function Footer() {
                 </div>
 
             </div>
-
-
             <div className="pt-20 px-5 pb-5 flex justify-center items-center">
                 <div style={{letterSpacing: '2px'}} className="last_elem">COPYRIGHT © 2024 BIZARRE
                     ELECTRONICS
@@ -51,6 +50,7 @@ export default function Footer() {
                 </div>
 
             </div>
+            
         </footer>
     )
 }

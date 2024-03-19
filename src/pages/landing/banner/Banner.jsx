@@ -1,6 +1,7 @@
 import React from 'react'
 import './banner.css'
 import { Link } from 'react-router-dom'
+import About from '../about/About'
 
 export default function Banner() {
     return (
@@ -12,7 +13,9 @@ export default function Banner() {
                 <Link to='/contacts' className="banner_btn">
                     Get a free quote
                 </Link>
+                
             </div>
+            <About/>
         </div>
     )
 }
