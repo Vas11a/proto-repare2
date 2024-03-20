@@ -32,7 +32,9 @@
 }
 
 .about_elem_btn{
-    background-color: #FF7331; z-index: 1;
+    background: rgb(239,116,73);
+    background: linear-gradient(90deg, rgba(239,116,73,1) 0%, rgba(215,216,48,1) 100%);
+    z-index: 1;
     @apply  cursor-pointer w-fit text-white hover:bg-orange-800 focus:ring-4 focus:ring-orange-400 font-medium rounded-lg px-5 py-2.5 me-2 mb-2
 }
 

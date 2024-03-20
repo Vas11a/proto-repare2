@@ -8,8 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        def_green: '#15372C',
-        def_orange: '#FF7331'
+        def_green: 'black',
+        def_orange: '#FF7331',
+        def_pink: '#BB388F',
+        def_blue: '#C5EAFB',
+        
       },
       fontSize: {
         '4.5xl': '40px',

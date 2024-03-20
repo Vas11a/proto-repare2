@@ -16,19 +16,19 @@ export default function Reviews() {
                 className="absolute bottom-20 right-60 opacity-10" alt="" />
             <div className='slider_cont' >
                 <Carousel className='rounded-lg overflow-hidden'>
-                    <div className="flex flex-col gap-3 p-10 h-full items-center justify-center bg-def_green">
+                    <div className="flex flex-col gap-3 p-10 h-full items-center justify-center bg-blue-400 ">
                         <img src={userprofile} className="w-16 h-16 rounded-full" alt="" />
                         <div className='w-96 text-center text-white font-semibold'>Ivan ivanych</div>
                         <Rating/>
                         <div className="text-center text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, quos.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, nam ut. Doloremque perferendis dolores laudantium consectetur. Ea adipisci quod aspernatur.</div>
                     </div>
-                    <div className="flex flex-col gap-3 p-10 h-full items-center justify-center bg-def_green">
+                    <div className="flex flex-col gap-3 p-10 h-full items-center justify-center bg-blue-400 ">
                         <img src={userprofile} className="w-16 h-16 rounded-full" alt="" />
                         <div className='text-center text-white font-semibold'>Ivan ivanych</div>
                         <Rating/>
                         <div className="text-center text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, incidunt?  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, nam ut. Doloremque perferendis dolores laudantium consectetur. Ea adipisci quod aspernatur.</div>
                     </div>
-                    <div className="flex flex-col gap-3 p-10 h-full items-center justify-center bg-def_green">
+                    <div className="flex flex-col gap-3 p-10 h-full items-center justify-center bg-blue-400 ">
                         <img src={userprofile} className="w-16 h-16 rounded-full" alt="" />
                         <div className='text-center text-white font-semibold'>Ivan ivanych</div>
                         <Rating/>

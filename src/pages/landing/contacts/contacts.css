@@ -1,6 +1,5 @@
 .contact_section{
-    background-color: #16372C;
-    @apply py-20 pt-0
+    @apply py-20 pt-0 bg-def_blue 
 }
 
 .contacts_title{
