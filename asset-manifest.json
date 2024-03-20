@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proto-repare2/static/css/main.50eecd7d.css",
-    "main.js": "/proto-repare2/static/js/main.7c5f7bb0.js",
+    "main.css": "/proto-repare2/static/css/main.308879df.css",
+    "main.js": "/proto-repare2/static/js/main.ba9f1852.js",
     "static/media/banner.jpg": "/proto-repare2/static/media/banner.1507558e9cb6e333c02d.jpg",
     "static/media/logo3.png": "/proto-repare2/static/media/logo3.407291830084ffc13e92.png",
     "static/media/user-profile.jpg": "/proto-repare2/static/media/user-profile.ad4a01ee995d61a86699.jpg",
@@ -9,11 +9,11 @@
     "static/media/like2.png": "/proto-repare2/static/media/like2.71c1256af98631c3b5ec.png",
     "static/media/menu-burg.png": "/proto-repare2/static/media/menu-burg.976b5194516ca86106ce.png",
     "index.html": "/proto-repare2/index.html",
-    "main.50eecd7d.css.map": "/proto-repare2/static/css/main.50eecd7d.css.map",
-    "main.7c5f7bb0.js.map": "/proto-repare2/static/js/main.7c5f7bb0.js.map"
+    "main.308879df.css.map": "/proto-repare2/static/css/main.308879df.css.map",
+    "main.ba9f1852.js.map": "/proto-repare2/static/js/main.ba9f1852.js.map"
   },
   "entrypoints": [
-    "static/css/main.50eecd7d.css",
-    "static/js/main.7c5f7bb0.js"
+    "static/css/main.308879df.css",
+    "static/js/main.ba9f1852.js"
   ]
 }
