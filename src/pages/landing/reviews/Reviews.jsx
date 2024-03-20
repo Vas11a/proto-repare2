@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export default function Reviews() {
     return (
-        <section className="rev_cont border-t border-b border-green-500">
+        <section className="rev_cont border-t border-b border-def_blue">
             <h1 className="reviews_title">REWIEWS</h1>
             <img src={like} style={{ transform: 'rotate(-15deg)' }}
                 className="absolute top-20 left-60 opacity-10" alt="" />
