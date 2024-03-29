@@ -44,7 +44,7 @@ export default function Contacts() {
                 <div className="own_cont">
                     <div className="form_wrapper">
                         <div className="lg:w-1/2 lg:mx-6 contact_links">
-                            <h1 className="sbtl_form text-2xl font-semibold text-black capitalize lg:text-3xl">
+                            <h1 className="sbtl_form text-2xl font-semibold text-vlack capitalize lg:text-3xl">
                                 Contact us for <br /> more info
                             </h1>
 
@@ -59,8 +59,7 @@ export default function Contacts() {
                                     </svg>
 
                                     <span className="mx-2 text-black truncate w-72">
-                                        Cecilia Chapman 711-2880 Nulla
-                                        St. Mankato Mississippi 96522
+                                    320 main st, Unit F, Longmont, CO, 80501
                                     </span>
                                 </p>
 
@@ -71,7 +70,7 @@ export default function Contacts() {
                                             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                     </svg>
 
-                                    <span className="mx-2 text-black truncate w-72">(257) 563-7401</span>
+                                    <span className="mx-2 text-black truncate w-72">+1 (929) 789-2881</span>
                                 </p>
 
                                 <p className="flex items-start -mx-2">
@@ -81,13 +80,13 @@ export default function Contacts() {
                                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
 
-                                    <span className="mx-2 text-black truncate w-72">acb@example.com</span>
+                                    <span className="mx-2 text-black truncate w-72">pavel@bizarreelectronics.com</span>
                                 </p>
 
                             </div>
 
 
-                            <div className="mt-6 w-80">
+                            {/* <div className="mt-6 w-80">
                                 <h3 className="text-black social_title">Follow us</h3>
 
                                 <div className="flex social mt-4 -mx-1.5 ">
@@ -134,14 +133,14 @@ export default function Contacts() {
                                         </svg>
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
 
-                        <div className="mt-8 bg-blue-400  rounded-xl">
+                        <div className="mt-8 bg-def_orange rounded-xl">
                             <div
-                                className="w-full px-2 sm:px-8 py-10 mx-auto overflow-hidden rounded-lg shadow-2xl lg:max-w-xl shadow-white-600/50">
-                                <h1 className="text-lg font-medium text-black text-center">FILL THIS OUT IF YOU WANT AN EMAILED
+                                className="w-full px-4 sm:px-8 py-10 mx-auto overflow-hidden rounded-lg shadow-2xl lg:max-w-xl shadow-white-600/50">
+                                <h1 className="text-lg font-medium text-white text-center">FILL THIS OUT IF YOU WANT AN EMAILED
                                     RESPONSE OR A CALLBACK
                                 </h1>
                                 {
@@ -162,7 +161,7 @@ export default function Contacts() {
 
                                 <form className="mt-6">
                                     <div className="flex-1">
-                                        <label className="block mb-2 text-sm text-black">
+                                        <label className="block mb-2 text-sm text-white">
                                             Full Name
                                             {nameError && <span className='text-red-500 pl-2'> Name is very short</span>}
                                         </label>
@@ -175,7 +174,7 @@ export default function Contacts() {
                                     </div>
 
                                     <div className="flex-1 mt-6">
-                                        <label className="block mb-2 text-sm text-black">Email
+                                        <label className="block mb-2 text-sm text-white">Email
                                             address
                                             {mailError && <span className='text-red-500 pl-2'> Email is incorrect</span>}
                                         </label>
@@ -188,7 +187,7 @@ export default function Contacts() {
                                     </div>
 
                                     <div className="w-full mt-6">
-                                        <label className="block mb-2 text-sm text-black">Message</label>
+                                        <label className="block mb-2 text-sm text-white">Message</label>
                                         <textarea
                                             onChange={(e) => setForm({ ...form, description: e.target.value })}
                                             value={form.description}
@@ -197,9 +196,9 @@ export default function Contacts() {
                                     </div>
 
                                     <button
-                                        // onClick={handleSubmit}
+                                        onClick={handleSubmit}
                                         type="button"
-                                        className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-black capitalize transition-colors duration-300 transform bg-def_blue rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                                        className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-400 hover:text-black rounded-md hover:bg-def_blue focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                         get in touch
                                     </button>
                                 </form>

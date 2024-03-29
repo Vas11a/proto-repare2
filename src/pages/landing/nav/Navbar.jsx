@@ -35,15 +35,6 @@ export default function Navbar() {
                             </li>
                         </div>
                         <div className="buttons mt-1 md:pt-0">
-                            {/* <button 
-                                type="button"
-                                className="btn_green"
-                            >Login</button>
-
-                            <button 
-                                type="button"
-                                className="btn_orange"
-                            >Sing up</button> */}
                             <Link to="/tracking">
                                 <button
                                     onClick={() => setIsMenuOpen(!isMenuOpen)}

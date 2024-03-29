@@ -15,9 +15,8 @@ export default function Landing() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Banner/>}/>
-          {/* <Route path="/about" element={<About/>}/> */}
           <Route path="/contacts" element={<Contacts/>}/>
-          <Route path="/reviews" element={<Reviews/>}/>
+          <Route path="/reviews" element={<CommingSoon/>}/>
           <Route path="/tracking" element={<CommingSoon/>}/>
         </Routes>
         <Footer/>
